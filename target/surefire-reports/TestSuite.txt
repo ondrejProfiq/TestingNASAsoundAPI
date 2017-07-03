@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 8.556 s <<< FAILURE! - in TestSuite
+testString(TestParamLimit)  Time elapsed: 0.235 s  <<< FAILURE!
+java.io.IOException: Server returned HTTP response code: 500 for URL: https://api.nasa.gov/planetary/sounds?limit=ten&api_key=rJh6i4JLqs5HqTJcuDgA0qojWq1UY45Oq5qDS3sF
+	at TestParamLimit.testString(TestParamLimit.java:84)
+
+testWithSetQParam(TestParamQ)  Time elapsed: 0.201 s  <<< FAILURE!
+java.lang.AssertionError
+	at TestParamQ.testWithSetQParam(TestParamQ.java:55)
+
+testDemoKeyValues(TestRequestLimit)  Time elapsed: 0.242 s  <<< FAILURE!
+java.lang.AssertionError
+	at TestRequestLimit.testDemoKeyValues(TestRequestLimit.java:42)
+
