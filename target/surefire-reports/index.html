@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">19 methods, 3 failed,   16 passed</span>
+                    <span class="method-stats">23 methods, 3 failed,   20 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -124,6 +124,26 @@
                       <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
                     </span>
                     <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="TestMethods" hash-for-method="TestMethodDELETE">TestMethodDELETE</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="TestMethods" hash-for-method="TestMethodGET">TestMethodGET</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="TestMethods" hash-for-method="TestMethodPOST">TestMethodPOST</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="TestMethods" hash-for-method="TestMethodPUT">TestMethodPUT</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="TestParamApiKey" hash-for-method="TestWithGeneratedKey">TestWithGeneratedKey</a> <!-- method navigator-link -->
@@ -270,7 +290,7 @@
 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
 	at java.net.URL.openStream(URL.java:1045)
-	at Downloader.download(Downloader.java:24)
+	at Downloader.download(Downloader.java:38)
 	at TestParamLimit.testString(TestParamLimit.java:84)
 ... Removed 29 stack frames
 </div> <!-- stack-trace -->
@@ -278,21 +298,6 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Surefire_suite-class-failed -->
-          <div class="suite-Surefire_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">TestParamQ</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testWithNoQParam">
-                  </a> <!-- testWithNoQParam -->
-                  <span class="method-name">testWithNoQParam</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Surefire_suite-class-passed -->
           <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -311,6 +316,21 @@
                   <a name="testJSONValid">
                   </a> <!-- testJSONValid -->
                   <span class="method-name">testJSONValid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestParamQ</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWithNoQParam">
+                  </a> <!-- testWithNoQParam -->
+                  <span class="method-name">testWithNoQParam</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -347,42 +367,6 @@
                   <a name="TestWithWrongKey">
                   </a> <!-- TestWithWrongKey -->
                   <span class="method-name">TestWithWrongKey</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Surefire_suite-class-passed -->
-          <div class="suite-Surefire_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">TestRequestLimit</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testDemoKeyValuesDecrease">
-                  </a> <!-- testDemoKeyValuesDecrease -->
-                  <span class="method-name">testDemoKeyValuesDecrease</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testDepletingRateLimit">
-                  </a> <!-- testDepletingRateLimit -->
-                  <span class="method-name">testDepletingRateLimit</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testDeveloperKeyValues">
-                  </a> <!-- testDeveloperKeyValues -->
-                  <span class="method-name">testDeveloperKeyValues</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testDeveloperKeyValuesDecrease">
-                  </a> <!-- testDeveloperKeyValuesDecrease -->
-                  <span class="method-name">testDeveloperKeyValuesDecrease</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -430,6 +414,78 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestRequestLimit</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDemoKeyValuesDecrease">
+                  </a> <!-- testDemoKeyValuesDecrease -->
+                  <span class="method-name">testDemoKeyValuesDecrease</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDepletingRateLimit">
+                  </a> <!-- testDepletingRateLimit -->
+                  <span class="method-name">testDepletingRateLimit</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeveloperKeyValues">
+                  </a> <!-- testDeveloperKeyValues -->
+                  <span class="method-name">testDeveloperKeyValues</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeveloperKeyValuesDecrease">
+                  </a> <!-- testDeveloperKeyValuesDecrease -->
+                  <span class="method-name">testDeveloperKeyValuesDecrease</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestMethods</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestMethodDELETE">
+                  </a> <!-- TestMethodDELETE -->
+                  <span class="method-name">TestMethodDELETE</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestMethodGET">
+                  </a> <!-- TestMethodGET -->
+                  <span class="method-name">TestMethodGET</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestMethodPOST">
+                  </a> <!-- TestMethodPOST -->
+                  <span class="method-name">TestMethodPOST</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestMethodPUT">
+                  </a> <!-- TestMethodPUT -->
+                  <span class="method-name">TestMethodPUT</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
         </div> <!-- panel Surefire_suite -->
         <div panel-name="test-xml-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -441,6 +497,7 @@
 &lt;suite thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire suite&quot;&gt;
   &lt;test name=&quot;Surefire test&quot;&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;TestMethods&quot;/&gt;
       &lt;class name=&quot;TestResponseJSON&quot;/&gt;
       &lt;class name=&quot;TestParamLimit&quot;/&gt;
       &lt;class name=&quot;TestParamApiKey&quot;/&gt;
@@ -459,7 +516,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Surefire test (5 classes)</span>
+                <span class="test-name">Surefire test (6 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -505,88 +562,104 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(19);
+data.addRows(23);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testJSONContainsAllSections')
-data.setCell(0, 2, 'TestResponseJSON')
-data.setCell(0, 3, 1361);
+data.setCell(0, 1, 'TestMethodDELETE')
+data.setCell(0, 2, 'TestMethods')
+data.setCell(0, 3, 1002);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testDemoKeyValuesDecrease')
 data.setCell(1, 2, 'TestRequestLimit')
-data.setCell(1, 3, 892);
+data.setCell(1, 3, 916);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'testDeveloperKeyValuesDecrease')
 data.setCell(2, 2, 'TestRequestLimit')
-data.setCell(2, 3, 891);
+data.setCell(2, 3, 897);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testWithNoQParam')
-data.setCell(3, 2, 'TestParamQ')
-data.setCell(3, 3, 586);
+data.setCell(3, 1, 'TestMethodGET')
+data.setCell(3, 2, 'TestMethods')
+data.setCell(3, 3, 587);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'TestWithRightKey')
-data.setCell(4, 2, 'TestParamApiKey')
-data.setCell(4, 3, 452);
+data.setCell(4, 1, 'testWithNoQParam')
+data.setCell(4, 2, 'TestParamQ')
+data.setCell(4, 3, 578);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'testZero')
-data.setCell(5, 2, 'TestParamLimit')
-data.setCell(5, 3, 447);
+data.setCell(5, 1, 'testJSONContainsAllSections')
+data.setCell(5, 2, 'TestResponseJSON')
+data.setCell(5, 3, 554);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'testDeveloperKeyValues')
-data.setCell(6, 2, 'TestRequestLimit')
-data.setCell(6, 3, 445);
+data.setCell(6, 1, 'testZero')
+data.setCell(6, 2, 'TestParamLimit')
+data.setCell(6, 3, 455);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'testResponseLengthMax')
-data.setCell(7, 2, 'TestParamLimit')
-data.setCell(7, 3, 424);
+data.setCell(7, 1, 'TestWithRightKey')
+data.setCell(7, 2, 'TestParamApiKey')
+data.setCell(7, 3, 449);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'testDepletingRateLimit')
+data.setCell(8, 1, 'testDeveloperKeyValues')
 data.setCell(8, 2, 'TestRequestLimit')
-data.setCell(8, 3, 375);
+data.setCell(8, 3, 445);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'testNegativeValues')
-data.setCell(9, 2, 'TestParamLimit')
-data.setCell(9, 3, 313);
+data.setCell(9, 1, 'TestMethodPUT')
+data.setCell(9, 2, 'TestMethods')
+data.setCell(9, 3, 408);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'testResponseLength20')
-data.setCell(10, 2, 'TestParamLimit')
-data.setCell(10, 3, 298);
+data.setCell(10, 1, 'testDepletingRateLimit')
+data.setCell(10, 2, 'TestRequestLimit')
+data.setCell(10, 3, 372);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'testJSONValid')
-data.setCell(11, 2, 'TestResponseJSON')
-data.setCell(11, 3, 293);
+data.setCell(11, 1, 'testResponseLengthMax')
+data.setCell(11, 2, 'TestParamLimit')
+data.setCell(11, 3, 337);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'testResponseLengthNoParam')
-data.setCell(12, 2, 'TestParamLimit')
-data.setCell(12, 3, 282);
+data.setCell(12, 1, 'testJSONValid')
+data.setCell(12, 2, 'TestResponseJSON')
+data.setCell(12, 3, 316);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'testDemoKeyValues')
-data.setCell(13, 2, 'TestRequestLimit')
-data.setCell(13, 3, 241);
+data.setCell(13, 1, 'TestWithGeneratedKey')
+data.setCell(13, 2, 'TestParamApiKey')
+data.setCell(13, 3, 228);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'testString')
+data.setCell(14, 1, 'testNegativeValues')
 data.setCell(14, 2, 'TestParamLimit')
-data.setCell(14, 3, 202);
+data.setCell(14, 3, 206);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'testWithSetQParam')
-data.setCell(15, 2, 'TestParamQ')
-data.setCell(15, 3, 201);
+data.setCell(15, 1, 'testResponseLength20')
+data.setCell(15, 2, 'TestParamLimit')
+data.setCell(15, 3, 204);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'TestWithGeneratedKey')
-data.setCell(16, 2, 'TestParamApiKey')
-data.setCell(16, 3, 200);
+data.setCell(16, 1, 'testString')
+data.setCell(16, 2, 'TestParamLimit')
+data.setCell(16, 3, 203);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'TestWithNoKey')
-data.setCell(17, 2, 'TestParamApiKey')
-data.setCell(17, 3, 125);
+data.setCell(17, 1, 'testWithSetQParam')
+data.setCell(17, 2, 'TestParamQ')
+data.setCell(17, 3, 200);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'TestWithWrongKey')
-data.setCell(18, 2, 'TestParamApiKey')
-data.setCell(18, 3, 125);
+data.setCell(18, 1, 'testDemoKeyValues')
+data.setCell(18, 2, 'TestRequestLimit')
+data.setCell(18, 3, 200);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testResponseLengthNoParam')
+data.setCell(19, 2, 'TestParamLimit')
+data.setCell(19, 3, 199);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'TestMethodPOST')
+data.setCell(20, 2, 'TestMethods')
+data.setCell(20, 3, 161);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'TestWithNoKey')
+data.setCell(21, 2, 'TestParamApiKey')
+data.setCell(21, 3, 126);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'TestWithWrongKey')
+data.setCell(22, 2, 'TestParamApiKey')
+data.setCell(22, 3, 126);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 8 seconds</span>
+              <span class="suite-total-time">Total running time: 9 seconds</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -598,16 +671,17 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">testDeveloperKeyValues</span>
+              <span class="reporter-method-name">testDeveloperKeyValuesDecrease</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Rate limit: 1000Rate limit remaining: 988
-Rate limit expected: 1000</span>
+                <span class="reporter-method-output">Rate limit 1: 969
+Rate limit 2: 968</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">TestWithGeneratedKey</span>
+              <span class="reporter-method-name">testDeveloperKeyValues</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">{"count": 10, "results": [{"description": "The Voyager 1 spacecraft has experienced three \"tsunami waves\" in interstellar space. Listen to how these waves cause surrounding ionized matter to ring. More details on this sound can be found here: http://www.nasa.gov/jpl/nasa-voyager-tsunami-wave-still-flies-through-interstellar-space/", "license": "cc-by-nc-sa", "title": "Voyager 1: Three \"Tsunami Waves\" in Interstellar Space", "download_url": "https://api.soundcloud.com/tracks/181835738/download", "duration": 18365, "last_modified": "2014/12/16 22:34:23 +0000", "stream_url": "https://api.soundcloud.com/tracks/181835738/stream", "tag_list": "Space", "id": 181835738}, {"description": "Courtesy of United Launch Alliance", "license": "cc-by-nc", "title": "Delta IV: Launch", "download_url": "https://api.soundcloud.com/tracks/173578614/download", "duration": 30095, "last_modified": "2014/10/24 02:16:33 +0000", "stream_url": "https://api.soundcloud.com/tracks/173578614/stream", "tag_list": "space", "id": 173578614}, {"description": null, "license": "cc-by-nc", "title": "Wheel Stop", "download_url": "https://api.soundcloud.com/tracks/172463130/download", "duration": 5903, "last_modified": "2014/10/16 19:29:13 +0000", "stream_url": "https://api.soundcloud.com/tracks/172463130/stream", "tag_list": "space", "id": 172463130}, {"description": null, "license": "cc-by-nc", "title": "Vector Transfer", "download_url": "https://api.soundcloud.com/tracks/172463129/download", "duration": 3760, "last_modified": "2014/10/16 19:29:12 +0000", "stream_url": "https://api.soundcloud.com/tracks/172463129/stream", "tag_list": "space", "id": 172463129}, {"description": null, "license": "cc-by-nc", "title": "Roger Roll", "download_url": "https://api.soundcloud.com/tracks/172463128/download", "duration": 1515, "last_modified": "2014/10/16 19:29:12 +0000", "stream_url": "https://api.soundcloud.com/tracks/172463128/stream", "tag_list": "space", "id": 172463128}, {"description": null, "license": "cc-by-nc", "title": "On its way to Orbit", "download_url": "https://api.soundcloud.com/tracks/172463126/download", "duration": 7497, "last_modified": "2014/10/16 19:29:12 +0000", "stream_url": "https://api.soundcloud.com/tracks/172463126/stream", "tag_list": "space", "id": 172463126}, {"description": null, "license": "cc-by-nc", "title": "Press to ATO", "download_url": "https://api.soundcloud.com/tracks/172463124/download", "duration": 2560, "last_modified": "2014/10/16 19:29:12 +0000", "stream_url": "https://api.soundcloud.com/tracks/172463124/stream", "tag_list": "space", "id": 172463124}, {"description": null, "license": "cc-by-nc", "title": "Nice to be in Orbit", "download_url": "https://api.soundcloud.com/tracks/172463122/download", "duration": 5641, "last_modified": "2014/10/16 19:29:11 +0000", "stream_url": "https://api.soundcloud.com/tracks/172463122/stream", "tag_list": "space", "id": 172463122}, {"description": null, "license": "cc-by-nc", "title": "MECO", "download_url": "https://api.soundcloud.com/tracks/172463117/download", "duration": 3187, "last_modified": "2014/10/16 19:29:11 +0000", "stream_url": "https://api.soundcloud.com/tracks/172463117/stream", "tag_list": "space", "id": 172463117}, {"description": null, "license": "cc-by-nc", "title": "Lookin At It", "download_url": "https://api.soundcloud.com/tracks/172463116/download", "duration": 2429, "last_modified": "2014/10/16 19:29:10 +0000", "stream_url": "https://api.soundcloud.com/tracks/172463116/stream", "tag_list": "space", "id": 172463116}]}</span>
+                <span class="reporter-method-output">Rate limit: 1000Rate limit remaining: 970
+Rate limit expected: 1000</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
@@ -617,17 +691,22 @@ Rate limit expected: 1000</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">testDeveloperKeyValuesDecrease</span>
+              <span class="reporter-method-name">TestMethodGET</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Rate limit 1: 987
-Rate limit 2: 986</span>
+                <span class="reporter-method-output">{"count": 10, "results": [{"description": "The Voyager 1 spacecraft has experienced three \"tsunami waves\" in interstellar space. Listen to how these waves cause surrounding ionized matter to ring. More details on this sound can be found here: http://www.nasa.gov/jpl/nasa-voyager-tsunami-wave-still-flies-through-interstellar-space/", "license": "cc-by-nc-sa", "title": "Voyager 1: Three \"Tsunami Waves\" in Interstellar Space", "download_url": "https://api.soundcloud.com/tracks/181835738/download", "duration": 18365, "last_modified": "2014/12/16 22:34:23 +0000", "stream_url": "https://api.soundcloud.com/tracks/181835738/stream", "tag_list": "Space", "id": 181835738}, {"description": "Courtesy of United Launch Alliance", "license": "cc-by-nc", "title": "Delta IV: Launch", "download_url": "https://api.soundcloud.com/tracks/173578614/download", "duration": 30095, "last_modified": "2014/10/24 02:16:33 +0000", "stream_url": "https://api.soundcloud.com/tracks/173578614/stream", "tag_list": "space", "id": 173578614}, {"description": null, "license": "cc-by-nc", "title": "Wheel Stop", "download_url": "https://api.soundcloud.com/tracks/172463130/download", "duration": 5903, "last_modified": "2014/10/16 19:29:13 +0000", "stream_url": "https://api.soundcloud.com/tracks/172463130/stream", "tag_list": "space", "id": 172463130}, {"description": null, "license": "cc-by-nc", "title": "Vector Transfer", "download_url": "https://api.soundcloud.com/tracks/172463129/download", "duration": 3760, "last_modified": "2014/10/16 19:29:12 +0000", "stream_url": "https://api.soundcloud.com/tracks/172463129/stream", "tag_list": "space", "id": 172463129}, {"description": null, "license": "cc-by-nc", "title": "Roger Roll", "download_url": "https://api.soundcloud.com/tracks/172463128/download", "duration": 1515, "last_modified": "2014/10/16 19:29:12 +0000", "stream_url": "https://api.soundcloud.com/tracks/172463128/stream", "tag_list": "space", "id": 172463128}, {"description": null, "license": "cc-by-nc", "title": "On its way to Orbit", "download_url": "https://api.soundcloud.com/tracks/172463126/download", "duration": 7497, "last_modified": "2014/10/16 19:29:12 +0000", "stream_url": "https://api.soundcloud.com/tracks/172463126/stream", "tag_list": "space", "id": 172463126}, {"description": null, "license": "cc-by-nc", "title": "Press to ATO", "download_url": "https://api.soundcloud.com/tracks/172463124/download", "duration": 2560, "last_modified": "2014/10/16 19:29:12 +0000", "stream_url": "https://api.soundcloud.com/tracks/172463124/stream", "tag_list": "space", "id": 172463124}, {"description": null, "license": "cc-by-nc", "title": "Nice to be in Orbit", "download_url": "https://api.soundcloud.com/tracks/172463122/download", "duration": 5641, "last_modified": "2014/10/16 19:29:11 +0000", "stream_url": "https://api.soundcloud.com/tracks/172463122/stream", "tag_list": "space", "id": 172463122}, {"description": null, "license": "cc-by-nc", "title": "MECO", "download_url": "https://api.soundcloud.com/tracks/172463117/download", "duration": 3187, "last_modified": "2014/10/16 19:29:11 +0000", "stream_url": "https://api.soundcloud.com/tracks/172463117/stream", "tag_list": "space", "id": 172463117}, {"description": null, "license": "cc-by-nc", "title": "Lookin At It", "download_url": "https://api.soundcloud.com/tracks/172463116/download", "duration": 2429, "last_modified": "2014/10/16 19:29:10 +0000", "stream_url": "https://api.soundcloud.com/tracks/172463116/stream", "tag_list": "space", "id": 172463116}]}</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
               <span class="reporter-method-name">testDemoKeyValuesDecrease</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Rate limit 1: 37
-Rate limit 2: 36</span>
+                <span class="reporter-method-output">Rate limit 1: 33
+Rate limit 2: 32</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TestWithGeneratedKey</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">{"count": 10, "results": [{"description": "The Voyager 1 spacecraft has experienced three \"tsunami waves\" in interstellar space. Listen to how these waves cause surrounding ionized matter to ring. More details on this sound can be found here: http://www.nasa.gov/jpl/nasa-voyager-tsunami-wave-still-flies-through-interstellar-space/", "license": "cc-by-nc-sa", "title": "Voyager 1: Three \"Tsunami Waves\" in Interstellar Space", "download_url": "https://api.soundcloud.com/tracks/181835738/download", "duration": 18365, "last_modified": "2014/12/16 22:34:23 +0000", "stream_url": "https://api.soundcloud.com/tracks/181835738/stream", "tag_list": "Space", "id": 181835738}, {"description": "Courtesy of United Launch Alliance", "license": "cc-by-nc", "title": "Delta IV: Launch", "download_url": "https://api.soundcloud.com/tracks/173578614/download", "duration": 30095, "last_modified": "2014/10/24 02:16:33 +0000", "stream_url": "https://api.soundcloud.com/tracks/173578614/stream", "tag_list": "space", "id": 173578614}, {"description": null, "license": "cc-by-nc", "title": "Wheel Stop", "download_url": "https://api.soundcloud.com/tracks/172463130/download", "duration": 5903, "last_modified": "2014/10/16 19:29:13 +0000", "stream_url": "https://api.soundcloud.com/tracks/172463130/stream", "tag_list": "space", "id": 172463130}, {"description": null, "license": "cc-by-nc", "title": "Vector Transfer", "download_url": "https://api.soundcloud.com/tracks/172463129/download", "duration": 3760, "last_modified": "2014/10/16 19:29:12 +0000", "stream_url": "https://api.soundcloud.com/tracks/172463129/stream", "tag_list": "space", "id": 172463129}, {"description": null, "license": "cc-by-nc", "title": "Roger Roll", "download_url": "https://api.soundcloud.com/tracks/172463128/download", "duration": 1515, "last_modified": "2014/10/16 19:29:12 +0000", "stream_url": "https://api.soundcloud.com/tracks/172463128/stream", "tag_list": "space", "id": 172463128}, {"description": null, "license": "cc-by-nc", "title": "On its way to Orbit", "download_url": "https://api.soundcloud.com/tracks/172463126/download", "duration": 7497, "last_modified": "2014/10/16 19:29:12 +0000", "stream_url": "https://api.soundcloud.com/tracks/172463126/stream", "tag_list": "space", "id": 172463126}, {"description": null, "license": "cc-by-nc", "title": "Press to ATO", "download_url": "https://api.soundcloud.com/tracks/172463124/download", "duration": 2560, "last_modified": "2014/10/16 19:29:12 +0000", "stream_url": "https://api.soundcloud.com/tracks/172463124/stream", "tag_list": "space", "id": 172463124}, {"description": null, "license": "cc-by-nc", "title": "Nice to be in Orbit", "download_url": "https://api.soundcloud.com/tracks/172463122/download", "duration": 5641, "last_modified": "2014/10/16 19:29:11 +0000", "stream_url": "https://api.soundcloud.com/tracks/172463122/stream", "tag_list": "space", "id": 172463122}, {"description": null, "license": "cc-by-nc", "title": "MECO", "download_url": "https://api.soundcloud.com/tracks/172463117/download", "duration": 3187, "last_modified": "2014/10/16 19:29:11 +0000", "stream_url": "https://api.soundcloud.com/tracks/172463117/stream", "tag_list": "space", "id": 172463117}, {"description": null, "license": "cc-by-nc", "title": "Lookin At It", "download_url": "https://api.soundcloud.com/tracks/172463116/download", "duration": 2429, "last_modified": "2014/10/16 19:29:10 +0000", "stream_url": "https://api.soundcloud.com/tracks/172463116/stream", "tag_list": "space", "id": 172463116}]}</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
@@ -640,7 +719,7 @@ Rate limit 2: 36</span>
             <div class="reporter-method-div">
               <span class="reporter-method-name">testDemoKeyValues</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Total rate limit: 40Rate limit remaining: 38
+                <span class="reporter-method-output">Total rate limit: 40Rate limit remaining: 34
 Total rate limit expected: 30</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
@@ -659,75 +738,94 @@ Total rate limit expected: 30</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">TestResponseJSON</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">TestMethods</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">testJSONContainsAllSections</span>
+                <span class="method-name">TestMethodDELETE</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <span class="method-name">TestMethodGET</span>
+                <span class="method-start">1003 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestMethodPOST</span>
+                <span class="method-start">1590 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestMethodPUT</span>
+                <span class="method-start">1752 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestResponseJSON</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testJSONContainsAllSections</span>
+                <span class="method-start">2162 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <span class="method-name">testJSONValid</span>
-                <span class="method-start">1367 ms</span>
+                <span class="method-start">2716 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TestParamLimit</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testNegativeValues</span>
-                <span class="method-start">1662 ms</span>
+                <span class="method-start">3033 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testResponseLength20</span>
-                <span class="method-start">1976 ms</span>
+                <span class="method-start">3240 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testResponseLengthMax</span>
-                <span class="method-start">2275 ms</span>
+                <span class="method-start">3445 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testResponseLengthNoParam</span>
-                <span class="method-start">2700 ms</span>
+                <span class="method-start">3782 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testString</span>
-                <span class="method-start">2983 ms</span>
+                <span class="method-start">3981 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testZero</span>
-                <span class="method-start">3217 ms</span>
+                <span class="method-start">4191 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TestParamApiKey</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">TestWithGeneratedKey</span>
-                <span class="method-start">3666 ms</span>
+                <span class="method-start">4646 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">TestWithNoKey</span>
-                <span class="method-start">3866 ms</span>
+                <span class="method-start">4877 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">TestWithRightKey</span>
-                <span class="method-start">3991 ms</span>
+                <span class="method-start">5003 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">TestWithWrongKey</span>
-                <span class="method-start">4443 ms</span>
+                <span class="method-start">5452 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TestParamQ</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testWithNoQParam</span>
-                <span class="method-start">4569 ms</span>
+                <span class="method-start">5578 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testWithSetQParam</span>
-                <span class="method-start">5155 ms</span>
+                <span class="method-start">6156 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -736,23 +834,23 @@ Total rate limit expected: 30</span>
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testDemoKeyValues</span>
-                <span class="method-start">5358 ms</span>
+                <span class="method-start">6357 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testDemoKeyValuesDecrease</span>
-                <span class="method-start">5600 ms</span>
+                <span class="method-start">6558 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testDepletingRateLimit</span>
-                <span class="method-start">6493 ms</span>
+                <span class="method-start">7474 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testDeveloperKeyValues</span>
-                <span class="method-start">6868 ms</span>
+                <span class="method-start">7847 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testDeveloperKeyValuesDecrease</span>
-                <span class="method-start">7314 ms</span>
+                <span class="method-start">8294 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

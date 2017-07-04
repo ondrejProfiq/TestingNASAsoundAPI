@@ -8,16 +8,16 @@
           <include name="testWithSetQParam"/>
         </methods>
       </class> <!-- TestParamQ -->
-      <class name="TestRequestLimit">
-        <methods>
-          <include name="testDemoKeyValues"/>
-        </methods>
-      </class> <!-- TestRequestLimit -->
       <class name="TestParamLimit">
         <methods>
           <include name="testString"/>
         </methods>
       </class> <!-- TestParamLimit -->
+      <class name="TestRequestLimit">
+        <methods>
+          <include name="testDemoKeyValues"/>
+        </methods>
+      </class> <!-- TestRequestLimit -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

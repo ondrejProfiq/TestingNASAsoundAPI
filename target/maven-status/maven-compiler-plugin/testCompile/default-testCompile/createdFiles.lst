@@ -1,5 +1,6 @@
+TestResponseJSON.class
+TestMethods.class
 TestParamLimit.class
 TestParamApiKey.class
 TestParamQ.class
 TestRequestLimit.class
-TestResponseJSON.class

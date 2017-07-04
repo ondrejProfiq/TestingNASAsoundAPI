@@ -1,10 +1,8 @@
 /**
- * Created by ondra on 29.6.17.
+ * Created by ondra
  */
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
+import java.io.*;
+import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLConnection;
 import java.util.List;
@@ -13,6 +11,22 @@ import java.util.Map;
 public class Downloader {
     public static final String API_KEY = "rJh6i4JLqs5HqTJcuDgA0qojWq1UY45Oq5qDS3sF";
     public static final String API_KEY_2 = "4zEoms78OihAkm93u2cFpTfwwcXsdYHZq4akm0Tw";
+    public enum Method {
+        GET("GET"),
+        PUT("PUT"),
+        POST("POST"),
+        DELETE("DELETE");
+
+        private final String name;
+
+        Method (String name) {
+            this.name = name;
+        }
+
+        String getName() {
+            return this.name;
+        }
+    }
 
     public static String download (String address) throws IOException {
         StringBuilder builder = new StringBuilder();
@@ -37,15 +51,28 @@ public class Downloader {
         return builder.toString();
     }
 
-    public static Map<String, List<String>> getHeader (String address) throws IOException{
-        InputStream is = null;
+    public static String download ( String address, String method ) throws IOException {
+        URL url = new URL(address);
         BufferedReader br;
+        StringBuilder builder = new StringBuilder();
         String line;
 
+        HttpURLConnection httpCon = (HttpURLConnection) url.openConnection();
+        httpCon.setDoOutput(true);
+        httpCon.setRequestMethod(method);
+
+        br = new BufferedReader(new InputStreamReader(httpCon.getInputStream()));
+
+        while ((line = br.readLine()) != null) {
+            builder.append(line);
+        }
+
+        return builder.toString();
+    }
+
+    public static Map<String, List<String>> getHeader (String address) throws IOException{
         URL url = new URL(address);
         URLConnection con = url.openConnection();  // throws an IOException
-        Map<String, List<String>> headers = con.getHeaderFields();
-        return headers;
-
+        return con.getHeaderFields();
     }
 }
