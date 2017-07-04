@@ -11,3 +11,7 @@ We could divide these tests into several categories:
 4. Request rate limit - There is specified request rate for developers keys and for demo keys. Demo key should have 30 an hour and 50 per day and IP address according to <a href='https://github.com/nasa/api-docs/blob/master/source/index.md'>this</a> document and developers keys should have rate limited to max 1000 requests per hour and IP address according to the same document. I tested if these limits are adhered. No problems found here
 5. Different types of requests - API should respond only to GET requests. Tests how the API responds to other types of requests are automated in file TestMethods.java.
 6. Performance tests - Test how the server behaves under heavy load, how many requests is it able to handle. I didn't implement any of these tests, there are specialized tools for this kind of testing.
+
+# Usage 
+
+You need maven installed in your computer and of course java. Just clone this repository to your computer and in the root folder run `mvn test` . Test report is then generated in file _../TestingNASAsoundAPI/target/surefire-reports/index.html_

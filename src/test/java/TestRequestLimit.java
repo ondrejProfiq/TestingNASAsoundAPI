@@ -139,8 +139,8 @@ public class TestRequestLimit {
         assert rateLimitSecond == (rateLimitFirst -1);
     }
 
-    // TODO: It would perhaps be a good idea to test for exact http response code 429
-    // as IOException might happen for other reasons
+    // commented out since it takes too much time, running in multiple threads might solve this issue
+    /*
     @Test (expectedExceptions = java.io.IOException.class)
     public void testDepletingRateLimit () throws Exception {
         String address = "https://api.nasa.gov/planetary/sounds?q=apollo&api_key=" + Downloader.API_KEY_2;
@@ -150,5 +150,6 @@ public class TestRequestLimit {
         }
 
     }
+    */
 
 }

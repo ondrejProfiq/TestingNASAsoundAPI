@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class TestParamApiKey {
 
     @Test(expectedExceptions = java.io.IOException.class)
-    public void TestWithNoKey () throws Exception {
+    public void testWithNoKey () throws Exception {
         String address = "https://api.nasa.gov/planetary/sounds";
         String response = Downloader.download(address);
         // if Downloader doesn't throw exception we will see what it got
@@ -16,7 +16,7 @@ public class TestParamApiKey {
     }
 
     @Test(expectedExceptions = java.io.IOException.class)
-    public void TestWithWrongKey () throws Exception {
+    public void testWithWrongKey () throws Exception {
         String address = "https://api.nasa.gov/planetary/sounds?api_key=WrongKey";
         String response = Downloader.download(address);
         // if Downloader doesn't throw exception we will see what it got
@@ -24,7 +24,7 @@ public class TestParamApiKey {
     }
 
     @Test
-    public void TestWithRightKey () throws Exception {
+    public void testWithRightKey () throws Exception {
         String address = "https://api.nasa.gov/planetary/sounds?api_key=DEMO_KEY";
         // should throw no exception
         String response = Downloader.download(address);
@@ -33,7 +33,7 @@ public class TestParamApiKey {
     }
 
     @Test
-    public void TestWithGeneratedKey () throws Exception {
+    public void testWithGeneratedKey () throws Exception {
         String address = "https://api.nasa.gov/planetary/sounds?api_key=" + Downloader.API_KEY;
         // should throw no exception
         String response = Downloader.download(address);
